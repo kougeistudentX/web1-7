@@ -20,15 +20,19 @@ header{
   float:left;
 }
 
-#main1{
+#box1{
   background-color: #ff4500;
+  color: #7fffd4
   width: 500px;
+  margin: 5px;
   float:left;
 }
 
 #main2{
   background-color: #191970;
+  color: #ee82ee
   width: 500px;
+  margin: 5px;
   float:left;
 }
 aside{
