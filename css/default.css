@@ -7,18 +7,32 @@
 
 body{
    background-color: #696969;
+ margin: 48px 0 0 0;
 }
 
 header{
   background=color: #006400;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: +1;
 }
 
 #main{
-  background-color: #f0e68c;
   width: calc(100% - 200px);
   min-width: 500px;
   float:left;
 }
+
+#picture{
+width: 24px;
+position: absolute;
+left: 50px;
+top: 50px;
+right: 10px;
+}
+
 
 #box1{
   background-color: #ff4500;
@@ -40,10 +54,27 @@ header{
 aside{
   background-color: #4b0082;
   width: 500px;
-   float:right;
+  float:right;
+  position: relative;
+  top: 20px;
+  right:10px;
 }
 
 footer{
   background-color: #ffff00;
   clear: both;
+}
+
+h1 span{font-size:20em;
+font-weight: bold;
+}
+
+.box{
+  background-color: #ff4500;
+  color: #7fffd4;
+  width: 500px;
+  height: 80px;
+  margin: 5px;
+  float:left;
+ overflow: auto;
 }
