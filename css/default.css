@@ -13,17 +13,22 @@ header{
   background=color: #006400;
 }
 
-#main1{
+#main{
   background-color: #ff4500;
   width: calc(100% - 200px);
   min-width: 500px;
   float:left;
 }
 
+#main1{
+  background-color: #ff4500;
+  width: 500px;
+  float:left;
+}
+
 #main2{
   background-color: #191970;
-  width: calc(100% - 200px);
-  min-width: 500px;
+  width: 500px;
   float:left;
 }
 aside{
