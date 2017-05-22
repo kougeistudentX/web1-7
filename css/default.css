@@ -13,17 +13,13 @@ header{
   background=color: #006400;
 }
 
-#main{
-  background-color: #f0e68c;
-  width: calc(100% - 200px);
-  min-width: 500px;
-  float:left;
-}
+
 
 #box1{
   background-color: #ff4500;
   color: #7fffd4
   width: 500px;
+  height: 80px;
   margin: 5px;
   float:left;
 }
@@ -32,6 +28,7 @@ header{
   background-color: #191970;
   color: #ee82ee
   width: 500px;
+  height: 80px
   margin: 5px;
   float:left;
 }
